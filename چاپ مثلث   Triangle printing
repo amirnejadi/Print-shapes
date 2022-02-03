@@ -1,0 +1,42 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+
+
+int main(int argc, char *argv[])
+{
+
+cout << " \n\t   ";
+cout << "\ SAMAVi     www.samavi.info ";
+cout << "\n\n";
+for (int row=1; row<=7; row++) {
+        for (int col=0; col<row; col++) {
+            cout << "*";
+        }
+        cout << endl;  // end the line.
+    }
+
+cout << "\n";
+
+
+for (int row=1; row<=6; row++) {
+        for (int col=0; col<row; col++) {
+            cout << "*";
+        }
+        cout << endl;  // end the line.
+    }
+
+for (int row=6; row>=1; row--) {
+        for (int col=1; col<row; col++) {
+            cout << "*";
+        }
+        cout << endl;  // end the line.
+    }
+
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+cout << "\ SAMAVi     www.samavi.info ";
+}
